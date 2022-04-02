@@ -1,44 +1,58 @@
-### C++ ###
-# Prerequisites
-*.d
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Generated files
+.idea/**/contentModel.xml
 
-# Precompiled Headers
-*.gch
-*.pch
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
 
+# CMake
+cmake-build-*/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-# Executables
-*.exe
-*.out
-*.app
+# File-based project format
+*.iws
 
-### VSCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+# IntelliJ
+out/
 
-# Local History for Visual Studio Code
-.history/
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# Built Visual Studio Code Extensions
-*.vsix
+# SonarLint plugin
+.idea/sonarlint/
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
