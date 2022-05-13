@@ -27,7 +27,12 @@ public class Main {
             ex.printStackTrace();
         }
 
-        int[] workersLine2 = {1,2,4,5};
-        factory.openWorklineWithWorkers(workersLine2, 2, "workline2");
+//        int[] workersLine2 = {1,2,4,5};
+//        try {
+//            factory.openWorklineWithWorkers(workersLine2, 2, "workline2");
+//            factory.startWorkline(2);
+//        }catch (InterruptedException ex){
+//            ex.printStackTrace();
+//        }
     }
 }
