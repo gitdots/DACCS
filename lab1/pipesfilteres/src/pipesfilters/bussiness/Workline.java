@@ -27,8 +27,10 @@ public class Workline extends Pipeline {
 
     @Override
     public String toString() {
-        return "WorkingLine{" +
-                "lineName='" + name + '\'' +
+        return "Workline{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", workers=" + workers +
                 '}';
     }
 

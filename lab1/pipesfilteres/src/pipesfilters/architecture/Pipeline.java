@@ -22,6 +22,7 @@ public abstract class Pipeline {
     private void doFilterWork(Filter f, int index) throws InterruptedException {
         f.start();
         f.join();
+
         if (f.isDone()) {
             pipes[index].openForWrite().writeData(f.newData).close();
         }

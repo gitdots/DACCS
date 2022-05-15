@@ -34,7 +34,11 @@ public class ChairProcess {
             if (p.getActivity().equals(process))
                 return p;
         }
-        return null;//exception?!
+        return null;
+    }
+
+    public LinkedList<Job> getProcessList(){
+        return list;
     }
 
 }

@@ -23,8 +23,8 @@ public class Worker extends Filter {
         System.out.println(this + "started work.");
         try {
             status = Status.PROCESS;
-            sleep(job.getTime());
-            newData = oldData + job.getActivity() + "DONE; ";
+            sleep(job.getTime()* 10L);
+            newData = oldData + job.getActivity() + " DONE; ";
             status = Status.DONE;
         } catch (InterruptedException e) {
             e.printStackTrace();
